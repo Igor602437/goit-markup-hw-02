@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   background-color: #FFFFFF;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 
@@ -16,8 +16,17 @@ a {
   text-decoration: none;
 }
 
+.nav-menu {
+  color: #2E2F42;
+}
+
+.nav-menu:hover, .nav-menu:focus{
+  color: #404BBF;
+}
+
 a:hover, a:focus{
   text-decoration: underline;
+  color: #4D5AE5;
 }
 
 h1 {
@@ -25,7 +34,7 @@ h1 {
   background-color: #2E2F42;
   font-size: 56px;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 1.071;
   letter-spacing: 2%;
 }
 
@@ -33,7 +42,7 @@ h2 {
   color: #2E2F42;
   font-size: 36px;
   font-weight: bold;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 2%;
 }
 
@@ -41,7 +50,7 @@ h3 {
   color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 2%;
 }
 
@@ -60,17 +69,25 @@ h3 {
   background: #4D5AE5;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 4%;
+  border-radius: 4px;
+  cursor: pointer;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
   border: none;
+  width: 169px;
+  height: 56px;
 }
 
 .addrs {
   color: #434455;
+}
+
+.addrs:hover, .addrs:focus {
+  color: #404BBF;
 }
 
 .ftr {
@@ -79,4 +96,8 @@ h3 {
 
 .ftr-txt {
   color: #F4F4FD;
+}
+
+.form-btm:active, .form-btm:focus{
+  background: #4D5AE5;
 }
