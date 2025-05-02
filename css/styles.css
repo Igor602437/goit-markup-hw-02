@@ -55,14 +55,6 @@ h3 {
   letter-spacing: 3%;
 }
 
-.ftr {
-  background: #2E2F42;
-}
-
-.ftr-txt {
-  color: #F4F4FD;
-}
-
 .form-btm {
   color: #FFFFFF;
   background: #4D5AE5;
@@ -77,10 +69,14 @@ h3 {
   border: none;
 }
 
-.nav-menu {
-  color: #2E2F42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 2%;
+.addrs {
+  color: #434455;
+}
+
+.ftr {
+  background: #2E2F42;
+}
+
+.ftr-txt {
+  color: #F4F4FD;
 }
