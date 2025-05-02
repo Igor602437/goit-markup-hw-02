@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455; 
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  text-decoration: underline;
+}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #2E2F42;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 2%;
+}
+
+h2 {
+  color: #2E2F42;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: #4D5AE5;
+  text-transform: uppercase;
+  line-height: 1.166;
+  font-weight: bold;
+  letter-spacing: 3%;
+}
+
+.ftr {
+  background: #2E2F42;
+}
+
+.ftr-txt {
+  color: #F4F4FD;
+}
+
+.form-btm {
+  color: #FFFFFF;
+  background: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+}
+
+.nav-menu {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
