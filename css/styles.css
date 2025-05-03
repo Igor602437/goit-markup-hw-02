@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -16,11 +16,15 @@ a {
   text-decoration: none;
 }
 
-.nav-menu {
+.nav-menu a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2E2F42;
 }
 
-.nav-menu:hover, .nav-menu:focus{
+.nav-menu a:hover, .nav-menu a:focus{
   color: #404BBF;
 }
 
@@ -34,24 +38,29 @@ h1 {
   background-color: #2E2F42;
   font-size: 56px;
   font-weight: bold;
-  line-height: 1.071;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 h2 {
   color: #2E2F42;
+  background-color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
   color: #2E2F42;
+  background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -59,18 +68,22 @@ h3 {
   font-size: 18px;
   color: #4D5AE5;
   text-transform: uppercase;
-  line-height: 1.166;
+  line-height: 1.17;
   font-weight: bold;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+}
+
+.letter {
+  color: #2e2f42;
 }
 
 .form-btm {
   color: #FFFFFF;
-  background: #4D5AE5;
+  background-color: #4D5AE5;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   cursor: pointer;
   padding-left: 32px;
@@ -82,16 +95,24 @@ h3 {
   height: 56px;
 }
 
-.addrs {
+.addrs a {
   color: #434455;
 }
 
-.addrs:hover, .addrs:focus {
+.addrs a:hover, .addrs a:focus {
   color: #404BBF;
+}
+
+.team {
+  background-color: #F4F4FD;
 }
 
 .ftr {
   background: #2E2F42;
+}
+
+.ftr .letter {
+  color: #f4f4fd;
 }
 
 .ftr-txt {
@@ -99,5 +120,5 @@ h3 {
 }
 
 .form-btm:active, .form-btm:focus{
-  background: #4D5AE5;
+  background-color: #404BBF;
 }
