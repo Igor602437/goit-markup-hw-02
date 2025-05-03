@@ -62,7 +62,7 @@ a:hover, a:focus{
   color: #404BBF;
 }
 
-.sect1 {
+.sect-hd {
   background-color: #2E2F42;
 }
 
@@ -115,7 +115,7 @@ a:hover, a:focus{
   letter-spacing: 0.02em;
 }
 
-.sect3 {
+.sect-team {
   background-color: #F4F4FD;
 }
 
