@@ -65,15 +65,15 @@ h3 {
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-size: 18px;
-  color: #4D5AE5;
-  text-transform: uppercase;
-  line-height: 1.17;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
 }
 
-.letter {
+.logo .letter {
   color: #2e2f42;
 }
 
@@ -111,7 +111,7 @@ h3 {
   background: #2E2F42;
 }
 
-.ftr .letter {
+.ftr .logo .letter {
   color: #f4f4fd;
 }
 
