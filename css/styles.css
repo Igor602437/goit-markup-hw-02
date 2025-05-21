@@ -1,19 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455; 
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
@@ -25,19 +23,19 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus{
-  color: #4D5AE5;
+a:hover,
+a:focus {
+  color: #4d5ae5;
 }
 
 .nav-menu {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
-.nav-menu:hover, .nav-menu:focus {
-  color: #404BBF;
+.nav-menu:hover,
+.nav-menu:focus {
+  color: #404bbf;
 }
 
 .logo {
@@ -47,11 +45,11 @@ a:hover, a:focus{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .head-span {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .addrs {
@@ -59,53 +57,50 @@ a:hover, a:focus{
 }
 
 .addr-list {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.addr-list:hover, .addr-list:focus {
-  color: #404BBF;
+.addr-list:hover,
+.addr-list:focus {
+  color: #404bbf;
 }
 
 .sect-head {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .skt-main {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   font-weight: bold;
 }
 
 .form-btm {
-  font-family: "Roboto", sans-serif;
-  color: #FFFFFF;
-  background-color: #4D5AE5;
+  color: #ffffff;
+  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.form-btm:hover, .form-btm:focus {
-  background-color: #404BBF;
+.form-btm:hover,
+.form-btm:focus {
+  background-color: #404bbf;
 }
 
 .sect-main {
-  color: #2E2F42;
+  color: #2e2f42;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
-.sect-team .page-title {
+/* .sect-team .page-title {
   text-align: center;
 }
 
@@ -113,18 +108,18 @@ a:hover, a:focus{
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 
 .sect-team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .sect-form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .ftr {
-  background: #2E2F42;
+  background: #2e2f42;
 }
 
 .letter {
@@ -132,6 +127,5 @@ a:hover, a:focus{
 }
 
 .ftr-txt {
-  color: #F4F4FD;
-  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
